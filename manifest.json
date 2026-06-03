@@ -1,106 +1,22 @@
 {
-  "name": "TechKundi - Technical Kundi",
+  "name": "TechKundi Official App",
   "short_name": "TechKundi",
-  "description": "Pakistan's leading tech blog by Furqan Ahmad covering Programming, AI, Web Dev, FYP Ideas, CS Notes & more.",
-  "start_url": "/",
-  "scope": "/",
+  "description": "Download TechKundi official app for themes, templates and science projects.",
+  "start_url": "/?utm_source=pwa",
   "display": "standalone",
-  "orientation": "portrait-primary",
-  "background_color": "#0d1117",
-  "theme_color": "#0a84ff",
-  "lang": "en-PK",
-  "dir": "ltr",
-  "categories": ["education", "technology", "news"],
-  "keywords": ["TechnicalKundi", "Tech Kundi", "Furqan Ahmad", "Programming", "FYP", "CS Notes", "Pakistan Tech"],
+  "background_color": "#111215",
+  "theme_color": "#000000",
+  "orientation": "portrait",
   "icons": [
     {
-      "src": "https://techkundi.blogspot.com/icon-72.png",
-      "sizes": "72x72",
+      "src": "https://placehold.co/192x192/000000/FFFFFF/png?text=TK",
       "type": "image/png",
-      "purpose": "any"
+      "sizes": "192x192"
     },
     {
-      "src": "https://techkundi.blogspot.com/icon-96.png",
-      "sizes": "96x96",
+      "src": "https://placehold.co/512x512/000000/FFFFFF/png?text=TechKundi",
       "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "https://techkundi.blogspot.com/icon-128.png",
-      "sizes": "128x128",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "https://techkundi.blogspot.com/icon-144.png",
-      "sizes": "144x144",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "https://techkundi.blogspot.com/icon-152.png",
-      "sizes": "152x152",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "https://techkundi.blogspot.com/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "https://techkundi.blogspot.com/icon-384.png",
-      "sizes": "384x384",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "https://techkundi.blogspot.com/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "sizes": "512x512"
     }
-  ],
-  "screenshots": [
-    {
-      "src": "https://techkundi.blogspot.com/screenshot-mobile.png",
-      "sizes": "390x844",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "TechKundi Mobile Homepage"
-    },
-    {
-      "src": "https://techkundi.blogspot.com/screenshot-desktop.png",
-      "sizes": "1280x800",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "TechKundi Desktop Homepage"
-    }
-  ],
-  "shortcuts": [
-    {
-      "name": "Latest Articles",
-      "short_name": "Latest",
-      "description": "View the latest tech articles",
-      "url": "/search",
-      "icons": [{"src": "https://techkundi.blogspot.com/icon-96.png", "sizes": "96x96"}]
-    },
-    {
-      "name": "FYP Ideas",
-      "short_name": "FYP",
-      "description": "Browse Final Year Project Ideas",
-      "url": "/search/label/FYP",
-      "icons": [{"src": "https://techkundi.blogspot.com/icon-96.png", "sizes": "96x96"}]
-    },
-    {
-      "name": "Programming",
-      "short_name": "Code",
-      "description": "Programming tutorials and guides",
-      "url": "/search/label/Programming",
-      "icons": [{"src": "https://techkundi.blogspot.com/icon-96.png", "sizes": "96x96"}]
-    }
-  ],
-  "related_applications": [],
-  "prefer_related_applications": false
+  ]
 }
